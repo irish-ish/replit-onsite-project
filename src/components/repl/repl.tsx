@@ -93,7 +93,7 @@ export const REPL = () => {
               <span>{input}</span>
             </div>
             <Separator />
-            <div className="text-gray-400 whitespace-pre-wrap break-all">
+            <div className="text-gray-400 whitespace-pre-wrap break-all flex">
               <span className="pr-2">&lt;</span>
               <ConsoleOutput data={output} />
             </div>
