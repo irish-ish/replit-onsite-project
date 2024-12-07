@@ -101,6 +101,7 @@ const processSerializedResponse = (data: SerializedResponse): any => {
 
     switch (serialized.type) {
       case 'undefined':
+        return undefined;
       case 'null':
         return null;
 
